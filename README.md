@@ -10,12 +10,12 @@ For setting this up, you would need to perform following steps.
 
 
         <VirtualHost *:80>
-            DocumentRoot "C:/xampp/htdocs"
+            DocumentRoot C:/xampp/htdocs
             ServerName localhost
         </VirtualHost>
         
         <VirtualHost *:80>
-            DocumentRoot "C:/xampp/htdocs/Login_Script/public/"
+            DocumentRoot C:/xampp/htdocs/Login_Script/public/
             ServerName mywebsite.com
         </VirtualHost>
 
