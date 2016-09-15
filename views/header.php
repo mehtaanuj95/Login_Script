@@ -10,9 +10,9 @@
         <link href="/css/styles.css" rel="stylesheet"/>
 
         <?php if (isset($title)): ?>
-            <title>C$50 Finance: <?= htmlspecialchars($title) ?></title>
+            <title>A basic Login Script: <?= htmlspecialchars($title) ?></title>
         <?php else: ?>
-            <title>C$50 Finance</title>
+            <title>A basic Login script</title>
         <?php endif ?>
 
         <!-- https://jquery.com/ -->
@@ -31,14 +31,14 @@
 
             <div id="top">
                 <div>
-                    <a href="/"><img alt="C$50 Finance" src="/img/logo.png"/></a>
+                    <!-- You can add your logo here -->
                 </div>
                 <?php if (!empty($_SESSION["id"])): ?>
                     <ul class="nav nav-pills">
-                        <li><a href="quote.php">Quote</a></li>
-                        <li><a href="buy.php">Buy</a></li>
-                        <li><a href="sell.php">Sell</a></li>
-                        <li><a href="history.php">History</a></li>
+                        <li><a href="#">Tab1</a></li>
+                        <li><a href="#">Tab2</a></li>
+                        <li><a href="#">Tab3</a></li>
+                        <li><a href="#">Tab4</a></li>
                         <li><a href="logout.php"><strong>Log Out</strong></a></li>
                     </ul>
                 <?php endif ?>
